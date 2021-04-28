@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VL54L2Z79T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VL54L2Z79T');
+</script>
+    <title>Drip Drop</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>-->
+    <link rel='stylesheet' href="/stylesheets/bootstrap.min.css">
+   
+       <link rel='stylesheet' href='/stylesheets/cart.css'>
+ 
+ 
+  
+ 
+
+</head>
+
+<body>
+   <!-- <div class = "d-flex flex-row header justify-content-between">
+        <img class = "" src='/images/home.png'>
+        <img class = "" src='/images/title.png'>
+        <img class = "" src='/images/circle.png'-->
+
+    <nav class="navbar">
+      
+ <div style="background-color: rgb(0,0,0,0);" class="m-0 p-0 d-block nav-item justify-content-start dropdown" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class = "img-fluid notRotated" id = "home" src='/images/menu3.png'>
+ </div>
+        <div class="m-0 p-0 d-none d-lg-flex justify-content-start">
+            <h4 id="page" style="position:absolute; margin-top: -13px; font-size: 1rem;"><%=loc%></h4>
+        </div>
+             <div style="background-color: black;" id="droppy" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a href="/">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">HOME</button>
+            </a>
+ 
+            <a href="/shop">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">SHOP</button>
+            </a>
+            <a href="/graphics">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">GRAPHICS</button>
+            </a>
+            <a href="/about">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">ABOUT</button>
+            </a>
+            <a href="/contact">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">CONTACT</button>
+            </a>
+            <a href="https://instagram.com/dripdropapparel">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">INSTAGRAM</button>
+            </a>
+            <a href="https://facebook.com/dripdropapparel">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">FACEBOOK</button>
+            </a>
+            <a href="/faq">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">FAQ</button>
+            </a>
+            <a href="/cart">
+             <button style="color: white; font-weight:900; font-style:italic;" class="dropdown-item m-0" type="button">CART</button>
+            </a>
+ 
+ 
+
+        
+              </div>          
+    
+        <div class="mx-auto"><a href="/"><img id="title" class = "img-fluid" src='/images/title.png'></a>
+        </div>
+
+    
+        <div class="wrap d-none d-sm-block nav-item justify-content-end my-auto text-center">
+     <!--       <a href="/cart"><img class = "img-fluid" src='/images/circle.png'></a>-->
+        <a href="/cart">
+            <!--
+            <span class = "fa-stack fa-lg">
+                <span class = "fa fa-circle-thin fa-stack-2x"></span>
+                <strong class= "fa-stack-1x">
+                <%if(cart && cart.items.length >0){%>
+                    <%=cart.items.length%> 
+                <%}else{%>
+                    0
+                <%}%>
+                </strong>
+            </span>-->
+            <img style="height:60px;" class="img-fluid" id = "cart" src="/images/cart.png">
+            <span class="text_over_img">
+               <%if(cart && cart.items.length > 0){%>
+                    <%=cart.quant%>
+                <%}%>
+                    
+                
+            </span> 
+        </a>
+        </div>
+
+  <!--      <div class = "d-block d-sm-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mr-5"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active mx-5" href="/">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link mx-5" href="/cart">Cart</a>
+                </div>
+            </div>
+
+
+        </div>-->
+ 
+ 
+    </nav>
+
+
+    
+

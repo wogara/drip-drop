@@ -1,0 +1,848 @@
+html,body{
+    font-family:'Montserrat Black',sans-serif;
+    font-weight: 900;
+    font-style:italic;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    background-color:white;
+  
+}
+
+.background {
+    background-color:rgba(125,125,125,.6);
+    position:relative;
+}
+
+.layer {
+    background-color:rgba(248,247,216,0.7);
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
+
+.returnsParagraph {
+    font-family:'Century Gothic', sans-serif;
+    font-weight: 600;
+    color:black;
+}
+
+
+#comingsoon {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+    font-style:italic;
+    font-size:4rem;
+    color:black;
+}
+.aboutwords {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+    font-style:italic;
+    font-size:1.5rem;
+    color:black;
+}
+
+
+.dropdown-item:hover{
+    color: black !important;
+}
+.dropdown-item:active {
+    background-color: rgb(58,197,242) !important;
+}
+.droplinks:hover{
+    color: black !important;
+}
+
+.center-cropped {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/dripdiamond.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 450px 300px;
+}
+
+.center-cropped-ghost {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/droopyghost.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-jeffery {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/drip-jeffery.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-narra {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/narraGANGshit.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+}
+
+.center-cropped-droproll {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/stop-drip-drop-and-roll.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+}
+.center-cropped-look {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/look-at-me.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 214px;
+}
+
+.center-cropped-cloud {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/electric-cloud.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-metro {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/metroboofin.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-jellyfish {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/jellyfishes.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-radioactive {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/radioactive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+#exampleModalLabel {
+    color:black;
+}
+.center-cropped-carl {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/carl-the-turtle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-the-diamond {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/the-diamond.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-trippy {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/trippy-drippy-ricky.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+}
+.center-cropped-ddcamo-ice {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/dd-camo-ice.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-ddcamo-fire {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/dd-camo-fire.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-brick-diamond {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/brick-diamond.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-levels {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/levels.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-driplit {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/driplit.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.center-cropped-wet {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/super-wet.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+    
+.center-cropped-money {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/money.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 650px;
+}
+.center-cropped-ring {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/ring-drip.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+.center-cropped-sauce {
+    width: 300px;
+    height: 300px;
+    background: url('/graphics/too-much-sauce.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+}
+
+.carousel-item{
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+}
+a {
+    color:black;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+    color:black;
+}
+h2 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+}
+h3 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+    color:black;
+}
+h4 {
+    font-family: 'Montserrat Black', sans-serif;
+    color:black;
+    font-weight: 900;
+}
+.answer {
+    font-family: 'Century Gothic', sans-serif;
+    font-weight:600;
+    color:black;
+}
+.graphicsDescription {
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 600;
+    color:black;
+    text-align: left;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+h5 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:2rem;
+}
+
+.btn{
+    font-family: 'Montserrat Black', sans-serif;
+    font-weight: 900;
+}
+
+.input-group{
+    font-family: 'Montserrat Black', sans-serif;
+    font-family: 900;
+}
+.wrap {
+    text-align:center;
+    position:relative;
+}
+
+.text_over_img {
+    position: absolute;
+    margin: auto;
+    margin-top:-15px;
+    margin-right:0px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:black;
+    height:100px;
+    font-size:2.2rem;
+}
+.cartvalue {
+    position:absolute;
+    margin-top:100px;
+    margin-left:60;
+}
+.page-footer{
+    margin-top:100px;
+}
+.navbar {
+    background-color:rgb(237,74,154);
+    height: 100px;
+}
+#homenav {
+    background-color:rgb(0,0,0,0);
+}
+.navbar img {
+    height: 100px;
+    width:auto;
+    margin-top: -8px;
+}
+hr {
+    border: 2px solid rgb(237,74,154);
+    width:90%;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+#longdrip {
+    margin: auto auto;
+    vertical-align:bottom;
+    margin-top:-40px;
+}
+#homeLinks {
+    position:relative;
+    width: 100%;
+    height: 125px;
+}
+
+@media screen and (min-width: 0px){
+    .text_over_img_shop {
+    position: absolute;
+    margin: auto auto;
+    margin-top:90px;
+    margin-right:25px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    height:100px;
+    font-size:3.5rem;
+    opacity:1 !important;
+    z-index:1;
+    
+}
+.text_over_img_shop_2 {
+    position: absolute;
+    margin: auto auto;
+    margin-top:420px;
+    margin-right:25px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    height:100px;
+    font-size:3.5rem;
+    opacity:1 !important;
+    z-index:1;
+    
+}
+.text_over_img_shop_3 {
+    position: absolute;
+    margin: auto auto;
+    margin-top:740px;
+    margin-right:25px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    height:100px;
+    font-size:3.5rem;
+    opacity:1 !important;
+    z-index:1;
+    
+}
+.text_over_img_shop_4 {
+    position: absolute;
+    margin: auto auto;
+    margin-top:1050px;
+    margin-right:25px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:white;
+    height:100px;
+    font-size:3.5rem;
+    opacity:1 !important;
+    z-index:1;
+    
+}
+button{
+    margin: 10px 25%;
+    width:50%;
+}
+.close {
+    width: 15%;
+}
+#cart {
+    height:50px;
+}
+#home {
+    height: 50px;
+}
+.input-group{
+    margin-left: 25%;
+    margin-right:25%;
+    margin-top:15%;
+    margin-bottom:5%;
+    width:50%;
+}    
+.unselected {
+    width: 100%;
+    height:auto;
+        
+}
+.selected{
+    width:100%;
+    height:auto;
+    
+}
+#border {
+    display:none;
+}
+#brand {
+    height:65px;
+    width: auto;
+}
+#title {
+    height: 65px;
+    width: auto; 
+}
+#aboutDesktop {
+    display:none;
+}
+#aboutMobile {
+    display:block;
+}
+#graphicsimage,#aboutimage,#shopimage {
+    height:350px;
+}
+#homeLinks {
+    margin-top:90vh;
+}
+.text_over_image {
+    position: absolute;
+    font-weight: 900;
+    font-size:1.5rem;
+    margin:auto;
+    margin-bottom:65px;
+    margin-right:0;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    height:100px;
+}
+.text_over_image_graphics {
+    position: absolute;
+    font-weight: 900;
+    font-size:1.5rem;
+    margin: auto;
+    margin-bottom:65px;
+    margin-right:10px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:black;
+    height:100px;
+}
+
+#modalSize {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    position:absolute;
+}
+
+@media screen and (min-width: 576px) {
+    #aboutDesktop {
+        display:block;
+    }
+    #cart{
+        height:60px;
+    }
+    #home {
+        height:70px;
+    }
+    #aboutMobile {
+        display:none;
+    }
+    #homeLinks {
+        margin-top: 100vh;
+}
+
+@media screen and (min-width: 767px) {
+    #brand {
+        height: 85px;
+        width: auto;
+    }
+     #modalSize {
+        width: 150%;
+        height: auto;
+        margin-left: -25%;
+        position:absolute;
+    }
+
+    #title {
+        height: 85px;
+        width: auto;
+    }
+    #homeLinks {
+        margin-top: 110vh;
+    }
+}
+
+.hide {
+    display:none;
+}
+
+
+
+@media screen and (min-width: 992px){
+    .text_over_img_shop {
+        position: absolute;
+        margin: auto auto;
+        margin-top:20px;
+        margin-right:25px;
+        top: 0;
+        left:0;
+        right:0;
+        bottom:0;
+        color:white;
+        height:100px;
+        font-size:10rem;
+        opacity:1 !important;
+        z-index:1;
+    
+    }
+
+
+    .text_over_image {
+        position: absolute;
+        font-weight: 900;
+        font-size:1.5rem;
+        margin:auto;
+        margin-bottom:17vh;
+        margin-right:0;
+        top: 0;
+        left:0;
+        right:0;
+        bottom:0;
+        height:0px;
+    }
+    .text_over_image_graphics {
+        position: absolute;
+        font-weight: 900;
+        font-size:1.5rem;
+        margin: auto;
+        margin-bottom:17vh;
+        margin-right:10px;
+        top: 0;
+        left:0;
+        right:0;
+        bottom:0;
+        color:black;
+        height:0px;
+    }
+     
+    button{
+        margin: 50% 25%;
+        width:50%;
+    }
+    .input-group{
+        margin:50% 25%;
+        width:50%;
+    }    
+    #border {
+        display:block;
+    }
+    .diamond{
+        display: inline;
+    }
+    #graphicsimage,#aboutimage,#shopimage {
+        height:35vh;
+    }
+    #homeLinks {
+        margin-top: 15vh;
+    }
+
+    .unselected {
+        width:85%;
+        height:auto;
+        background-size:100px; 
+        animation-name: unselect;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        ms-transition: all .5s ease;
+    
+    }
+
+    .selected {
+        width: 100%;
+        height:auto;
+        background:url("/images/light-grey-diamond.png");
+        background-position:center;
+        background-repeat: no-repeat;
+    
+        background-size: auto;
+    
+        animation-name: select;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -o-transition: all .5s ease;
+
+        ms-transition: all .5s ease;
+    
+    }
+    .selected img {
+        opacity:1;
+    }
+
+ 
+    .fadeout {
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        ms-transition: all .15s ease;
+        opacity: .25;
+        z-index: -1;
+    }
+
+    .faded {
+        opacity:.25;
+    }
+
+    .fadein {
+        opacity:1;
+        animation-name: fadeInOpacity;
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        -o-transition: all .15s ease;
+        ms-transition: all .15s ease;
+        z-index:0;
+    }
+
+    .small {
+        font-size:1rem;
+        font-weight:900;
+        margin-bottom:17vh;
+    }
+    .largeLink {
+        font-size:1.75rem;
+        margin-top:-80px;
+    }
+    .growLink {
+        font-size:1.75rem;
+        margin-top:-80px;
+        animation-name:growLink;
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        ms-transition: all .15s ease-in-out;
+
+    }
+    .shrinkLink{
+        font-size:1rem;
+        margin-top:0px;
+        animation-name:shrinkLink;
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        ms-transition: all .15s ease-in-out;
+    }
+   
+    .smallLink {
+        font-size:1rem;
+        font-weight:900;
+        margin-top:0px;
+    }
+    .large {
+        font-size:2.2rem;
+        font-weight:900;
+        margin-bottom:18vh;
+    }
+    .grow {
+        font-size:2.2rem;
+        animation-name: grow;
+        animation-name:growMargins;
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        ms-transition: all .15s ease-in-out;
+    }    
+    .shrink {
+        font-size:1rem;
+        animation-name: shrink;
+        animation-name:shrinkMargins;
+        -webkit-transition: all .15s ease-in-out;
+        -moz-transition: all .15s ease-in-out;
+        -o-transition: all .15s ease-in-out;
+        ms-transition: all .15s ease-in-out;
+    }    
+    
+    @keyframes fadeInOpacity{
+        0%{
+            opacity:0;
+    
+        100%{
+            opacity:1;
+        }
+    }  
+
+    @keyframes grow {
+        0%{
+            font-size:1rem;
+            margin-bottom:17vh;
+        }
+        100%{
+            font-size:2.2rem;
+            margin-bottom:18vh;
+        }
+    }
+    @keyframes shrink {
+        0%{
+            font-size:2.2rem;
+        }
+        100%{
+            font-size:1rem;
+        }
+    }
+
+    @keyframes growMargins {
+        0%{
+            margin-bottom:17vh;
+        }
+        100%{
+            margin-bottom:18vh;
+        }
+    }
+    @keyframes shrinkMargins {
+        0%{
+            margin-bottom: 80px;
+        }
+        100%{
+            margin-bottom:65px;
+        }
+    }
+
+    @keyframes growLink {
+        0%{
+            font-size:1rem;
+            margin-bottom:0px;
+        }
+        100%{
+            font-size:1.5rem;
+            margin-top:-80px;
+        }
+    }
+    @keyframes shrinkLink {
+        0%{
+            font-size:1.5rem;
+            margin-bottom:-20px;
+        }
+        100%{
+            font-size:1rem;
+            margin-bottom:0px;
+        }
+    }
+    @keyframes select {
+        0%{
+            width:85%;
+            opacity:1;
+            background-size: 100px;
+        }
+        100%{
+            width:100%;
+            background:url("/images/light-grey-diamond.png");
+            background-color:rgba(0,0,0,1);
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            opacity:0.5;
+        }
+    }
+    @keyframes unselect {
+        0%{
+            width:100%;
+            background:url("/images/light-grey-diamond.png");
+            background-color: rgba(0,0,0,1);
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            opacity: 0.5;
+        }
+        100%{
+            width:85%;
+            opacity:1;
+            background-size:100px;
+        }
+    }
+}
+

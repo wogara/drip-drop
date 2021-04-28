@@ -1,0 +1,125 @@
+<%-include('partials/home.ejs')%>
+
+<!--style="height: 60vh"-->
+<div style="" class = "container text-center">
+
+    <div style=""class = "row justify-content-center">
+     <!--    <div class = "col-12 d-md-none my-auto text-center wrap">
+            <video id="vid3" class="img-fluid" autoplay muted loop controls playsinline>
+                <source src='images/video.mp4' type='video/mp4'>
+            </video>
+
+
+            
+        </div> -->
+        <div class = "col-12 d-md-none my-auto text-center-wrap">
+            <iframe width="auto" height="auto" src="https://www.youtube.com/embed/7hoqef-MeM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        
+        <div class = "col-sm-12 col-lg-4 my-auto text-center wrap">
+            <!--<div style="backface-visibily:hidden;">-->
+           <a style="z-index:1;" id="shoplink" class = "link text_over_image" href = "/shop">SHOP</a>
+           <!-- </div>-->
+            <a href="/shop">
+            <img style="" id="shopimage" class = "diamond" src = "images/new-diamond.png">
+            </a>
+        </div>
+        
+    </div>
+
+    <div class = "row justify-content-between">
+        <div class = "wrap col-sm-12 col-lg-4 my-auto text-center">
+            <a style= "z-index:1;" id = "graphicslink" class="text_over_image_graphics" href= "/graphics">GRAPHICS</a>
+            <a href="/graphics">
+        <!--old height was 350px-->
+            <img style=''id = "graphicsimage" class = "diamond" src = "images/new-diamond.png">
+            </a>
+        </div>
+        <div class="d-none d-md-block col-lg-2 my-auto text-center">
+            <video data-toggle="modal" data-target="#exampleModal" id="vid" class="img-fluid" autoplay muted loop playsinline>
+                <source src='images/video-overlay.mp4' type='video/mp4'>
+            </video>
+        </div>
+
+
+
+<!-- Button trigger modal -->
+<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title justify-content-start" id="exampleModalLabel">CHECK OUT OUR NEW COLLECTION <a href="/shop" style="color:rgb(58,197,242);">HERE</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <video data-toggle="modal" data-target="#exampleModal" id="vid2" class="img-fluid" autoplay="true" muted="muted" controls>
+                <source src='images/video.mp4' type='video/mp4'>
+        </video>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+        <div class = "col-sm-12 col-lg-4 my-auto text-center wrap">
+            <a style="z-index:1;"id = "aboutlink" class="link text_over_image" href = "/about">ABOUT</a>
+            <a href="/about">
+            <!--225px works-->
+            <img style='' id = "aboutimage" class = "diamond" src = "images/new-diamond.png">
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<%-include('partials/bottomLinks.ejs')%>
+<script>
+   document.getElementById('vid').play();
+//    var vid3 = document.getElementById('vid3');
+ //   var ONLYONETIME_EXECUTE = null;
+//window.addEventListener('load', function(){ // on page load
+ 
+//      document.body.addEventListener('touchstart', function(e){
+    
+//    if (ONLYONETIME_EXECUTE == null) {   
+
+ //       vid3.play();
+
+        //if you want to prepare more than one video/audios use this trick :             
+          // now video2 is buffering and you can play it programmability later 
+          // My personal testing was maximum 6 video/audio for android 
+          // and maybe 3 max for iOS using single click or touch.
+          // Every next click also can prepare more audios/videos.
+
+  //      ONLYONETIME_EXECUTE = 0;
+ //   }
+
+ // }, false)
+ 
+//}, false)
+    var vid2 = document.getElementById('vid2');
+    document.addEventListener("click",function(event){
+        vid2.muted=true;
+    });
+</script>
+
+<script type="text/javascript" src="/javascript/popper.js"></script>
+<script type="text/javascript" src="/javascript/jquery.js"></script>
+
+<script type="text/javascript" src="/javascript/bootstrap.min.js"></script>
+<script type="text/javascript" src="/javascript/home.js"></script>
+<script type="text/javascript" src="/javascript/navbar.js"></script>
+<%-include('partials/footer.ejs')%>
+

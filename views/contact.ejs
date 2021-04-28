@@ -1,0 +1,57 @@
+<%-include('partials/contact.ejs')%>
+<img style = "margin-bottom: 30px; height: 175px; margin-top:-20px; margin-left: -3%;" src = "/images/longer-drip.png">
+   <div class="container mt-0">  
+  <form class= "mt-0" id="contact" action="/contact" method="post">
+    <h3>Contact Drip Drop</h3>
+    <h4>Say "Hi" or give us an idea for a custom project.</h4>
+    <fieldset>
+      <input placeholder="Who are you?" type="text" name="name" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="What's your e-mail address?" type="email" name="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Digits? (only if you want)" type="tel" name="number"  tabindex="3">
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Express yourself. This is a safe space." name="text" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <p id="thankyou"></p>
+  </form>
+</div>
+
+
+<!--    <div style="position:relative; width: 100%; height 125px; margin-botton:0px; margin-top:50px;" class = "row text-center justify-content-around">
+          <div id = "facebookBox" class = "p-3">
+              <a style="position:relative;" id="facebookLink" href="https://facebook.com/dripdropapparel" target="_blank">FACEBOOK</a>
+          </div>
+          <div id = "instagramBox" class="p-3">
+              <a style="position:relative;" id="instagramLink" href="https://instagram.com/dripdropapparel" target="_blank">INSTAGRAM</a>
+          </div>
+          <div id = "emailBox" class="p-3">
+              <a style="position:relative;" id="emailLink" href="/contact">CONTACT</a>
+          </div>
+  
+          <div id = "boringBox" class="p-3">
+             <a style="position:relative;" id="boringLink" href="/faq">FAQ</a>
+          </div>
+                                                                                 
+     </div>-->
+<%-include('partials/bottomLinks.ejs')%>
+
+<script type="text/javascript" src="/javascript/popper.js"></script>
+<script type="text/javascript" src="/javascript/jquery.js"></script>
+<script type="text/javascript" src="/javascript/bootstrap.min.js"></script>
+<script type="text/javascript" src="/javascript/navbar.js"></script>
+<script type="text/javascript" src="/javascript/links.js"></script>
+<script type="text/javascript" src="/javascript/contact.js"></script>
+
+
+
+
+
+    
+<%-include('partials/footer.ejs')%>
