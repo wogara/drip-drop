@@ -1,29 +1,6 @@
 <%-include('partials/checkout.ejs')%>
 <div class = "container wrapper">
-<!--    <div class ="row cart-head">
-        <div class="container">
-        <div class="row">
-            <p></p>
-        </div>
-        <div class = "row">
-            <div style="display: table; margin:auto;">
-                <span class = "step step_complete"> 
-                    <a href="#" class="check-bc">Cart</a>
-                    <span class="step_line step_complete">
- 
-                    </span>
-                    <span class="step_line backline"> </span>
-                </span>
-                <span class="step step_complete">
-                    <a href="#" class="check-bc">Checkout</a> <span class="step_line "> </span> <span class = "step_line step_complete"> </span> </span>
-                    <span class="step_thankyou check-bc step_complete">Thank you</span>
-            </div>
-        </div>
-        <div class="row">
-            <p></p>
-        </div>
-        </div>
-    </div>-->
+
     <div class = "row cart-body">
         <form class="form-horizontal">
         <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
@@ -204,62 +181,8 @@
                     <div class="col-md-12"><input type="text" class="form-control" id="sq-postal-code" value="" /></div>
                 </div>
 
-
-               <!-- <div class="form-group">
-                    <div class="col-md-12">
-                        <strong>Expiration Date</strong>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <select class="form-control" name="">
-                            <option value="">Month</option>
-                            <option value="01">01</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <select class="form-control" name="">
-                            <option value="">Year</option>
-                            <option value="2020">2020</option>
-                            <option value="2021">2021</option>
-                            <option value="2022">2022</option>
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                            <option value="2025">2025</option>
-                            <option value="2026">2026</option>
-                            <option value="2027">2027</option>
-                            <option value="2028">2028</option>
-                            <option value="2029">2029</option>
-                            <option value="2030">2030</option>
-                            <option value="2031">2031</option>
-                        </select>
-                    </div>
-                </div>-->
-
                 <div class="form-group">
-                   <!-- <div class="col-md-12">
-                        <span>Pay securely using your credit card.</span>
-                    </div>-->
 
-              <!--      <div class="col-md-12">
-                        <ul class="cards">
-                            <li class="visa hand">Visa</li>
-                            <li class="mastercard hand">MasterCard</li>
-                            <li class="discover hand">Amex</li>
-                            <li class="american hand">Amex</li>
-                        
-                        </ul>
-                        <div class="clearfix"></div>
-                    </div>-->
                     <div class="col-12 text-center">
                         <span>Powered by</span>
                         <img src = 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/136357661/original/4ca1e1a4793a84787cb9d8f8615e5ac0e994456c/square-payment-gateway-integration.jpg' style="height:100px; width:auto">
@@ -267,15 +190,12 @@
                    
                     <div class="form-group">
                         <div class="col-lg-12 text-center">
-<!--add btn-submit-fix -->
+
                             <button type="submit" id="sq-creditcard" class="mt-0 mb-2 btn btn-primary">Pay <span id="writtenTotal"><%=cart.formattedTotals%></span></button>
 <p id="complete"></p>
 <a href="#" style="color:blue; cursor:pointer;" id = "takeMeHome"></a>
                         </div>
-                       <!-- <div class="col-12">
-                            <span>Powered by </span>
-                            <img src = 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/136357661/original/4ca1e1a4793a84787cb9d8f8615e5ac0e994456c/square-payment-gateway-integration.jpg' style="height:150px; width:auto; margin-bottom:0px;">
-                        </div>-->
+ 
                     </div>
                 </div>
             </div>
